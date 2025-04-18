@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -40,9 +41,15 @@ img {
 }
 
 #target-chat-id {
-    margin: 40px 0;
+    margin: 40px auto;
+    width: 50%;
+    height: 400px;
     min-height: calc(100vh - 300px);
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 footer {
